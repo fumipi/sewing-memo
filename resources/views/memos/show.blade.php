@@ -14,7 +14,7 @@
             <a href="{{ route('memos.index') }}" class="text-blue-500 hover:text-blue-700 mr-2">Return to index</a>
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->title }}</p>
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->photo_path }}</p>
-            <img class="h-36" src={{ $memo->photo_path }}> //表示されない
+            <img class="h-36" src={{ $memo->photo_path }}> 
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->pattern }}</p>
             <img class="h-36" src={{ $memo->pattern_path }}>
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->fabric }}</p>
