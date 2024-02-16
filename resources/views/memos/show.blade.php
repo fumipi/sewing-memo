@@ -14,10 +14,11 @@
             <a href="{{ route('memos.index') }}" class="text-blue-500 hover:text-blue-700 mr-2">Return to index</a>
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->title }}</p>
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->photo_path }}</p>
+            <img class="h-36" src={{ $memo->photo_path }}> //表示されない
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->pattern }}</p>
-            <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->pattern_path }}</p>
+            <img class="h-36" src={{ $memo->pattern_path }}>
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->fabric }}</p>
-            <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->fabric_path }}</p>
+            <img class="h-36" src={{ $memo->fabric_path }}>
             <p class="text-gray-800 dark:text-gray-300 text-lg">{{ $memo->memo }}</p>
             <p class="text-gray-600 dark:text-gray-400 text-sm">Posted by: {{ $memo->user->name }}</p>
             <div class="text-gray-600 dark:text-gray-400 text-sm">
