@@ -1,4 +1,4 @@
-## 実装したプロダクトの概要
+## Sewing Memo
 - G's expansion Advanced Laravel side-a講座の2回目事前課題で作りました。
 - 第一回講義で学んだのはTwitterライクなアプリケーションだったのを、洋裁メモを共有するアプリとしました。
 
